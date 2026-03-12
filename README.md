@@ -1,7 +1,2 @@
 Overview:
 This project analyzes Warby Parker’s marketing funnel using SQL. It tracks users from taking a style quiz, to home try-on, to making a purchase. By examining conversion rates at each step and comparing groups (such as users who tried 3 vs. 5 pairs), the project identifies where users drop off and which options lead to more sales. Insights help improve the customer journey and boost conversions.
-
-*Step 1: Analyze Survey Completion*
-SELECT question, COUNT(response)
-FROM survey
-GROUP BY question;
