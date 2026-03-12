@@ -103,7 +103,7 @@ FROM purchase
 GROUP BY model_name  
 ORDER BY count DESC;  
 
-<img width="557" height="145" alt="image" src="https://github.com/user-attachments/assets/3b8acc99-2c7d-4ea7-82d0-057e4cc36d94" />
+<img width="600" height="145" alt="image" src="https://github.com/user-attachments/assets/3b8acc99-2c7d-4ea7-82d0-057e4cc36d94" />
 
 => Lists the most purchased frame models.
 <img width="1012" height="99" alt="image" src="https://github.com/user-attachments/assets/cb2cb040-36e9-42d0-9136-7672d53e075d" />
@@ -123,6 +123,20 @@ GROUP BY number_of_pairs
 
 <img width="723" height="81" alt="image" src="https://github.com/user-attachments/assets/94238c5b-5c61-4ff3-93e8-dc2aacc3c058" />
 
-<img width="837" height="114" alt="image" src="https://github.com/user-attachments/assets/b3e6de16-cd5e-4487-aa42-143b66fb9b4b" />
-<img width="1105" height="439" alt="image" src="https://github.com/user-attachments/assets/4bcf92fa-90d0-422d-865e-8765b5544a66" />
+<img width="723" height="114" alt="image" src="https://github.com/user-attachments/assets/b3e6de16-cd5e-4487-aa42-143b66fb9b4b" />
+
+------------------
+**High Level Recommendations:**
+
+- Offer 5 pairs for home try-on as the default, since it leads to higher purchase rates.  
+
+- Focus marketing and inventory on the most popular styles and models found in the quiz and purchase data.  
+
+- Highlight best-selling colors and frames in promotions.  
+
+- Simplify or shorten the quiz to reduce drop-off, especially after the second question.  
+
+- Use high-converting quiz results to personalize product suggestions for users.  
+
+
 
