@@ -1,7 +1,37 @@
+<img width="1100" height="220" alt="image" src="https://github.com/user-attachments/assets/5f446099-4ab6-4e0b-a953-82aa88368ead" />
+
+**Context:** Warby Parker is a transformative lifestyle brand with a lofty objective: to offer designer eyewear at a revolutionary price while leading the way for socially conscious businesses. Founded in 2010 and named after two characters in an early Jack Kerouac journal, Warby Parker believes in creative thinking, smart design, and doing good in the world — for every pair of eyeglasses and sunglasses sold, a pair is distributed to someone in need.
+
+**Objective:** This project aims to analyze different Warby Parker’s marketing funnels in order to calculate conversion rates.
+
+-------------------------------------------------------------------
+**Step 0: Understand data structure**  
+There are 4 tables: home_try_on, purchase, survey, quiz
+<img width="825" height="587" alt="image" src="https://github.com/user-attachments/assets/7e937c35-34c7-4a26-9646-8c8cc5852bd3" />
 
 
 
-**Step 1: Analyze Survey Completion**
+
+**Step 1: Preview Data Tables**
+
+SELECT *   
+FROM home_try_on LIMIT 5;  
+SELECT *   
+FROM purchase LIMIT 5;  
+SELECT *  
+FROM quiz LIMIT 5;  
+SELECT *  
+FROM survey  
+limit 5;  
+
+
+<img width="986" height="394" alt="image" src="https://github.com/user-attachments/assets/82c67516-5f7a-47e1-8c74-605e6aeed70f" />
+
+<img width="808" height="128" alt="image" src="https://github.com/user-attachments/assets/32f7782f-6e1b-4197-98fb-94d5f903a3ee" />
+
+=> Shows the first 5 rows of each table to understand their structure.  
+
+**Step 2: Analyze Survey Completion**
 
 SELECT question,  
 COUNT(response)  
@@ -11,20 +41,6 @@ GROUP BY question;
 
 
 => Counts responses for each quiz question to find drop-off points.
-
-**Step 2: Preview Data Tables**
-
-SELECT *   
-FROM home_try_on LIMIT 5;  
-SELECT *   
-FROM purchase LIMIT 5;  
-SELECT *  
-FROM quiz LIMIT 5;  
-
-<img width="986" height="394" alt="image" src="https://github.com/user-attachments/assets/82c67516-5f7a-47e1-8c74-605e6aeed70f" />
-
-
-=> Shows the first 5 rows of each table to understand their structure.
 
 **Step 3: Build Funnel Table**
 
